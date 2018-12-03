@@ -16,7 +16,7 @@ insertionSort(int A[], int size){
         //location to place the element
         temp = i;
 
-        // search for place to put current element
+        // search for temp location to put current element
         while(temp > 0 && A[temp-1] > value){
             //shift element right one slot
             A[temp] = A[temp-1];
